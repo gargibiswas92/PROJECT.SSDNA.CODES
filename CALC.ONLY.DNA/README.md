@@ -1,0 +1,6 @@
+# Workflow:  
+1. Here I tried to find if the two ends of the DNA makes contacts or not. Here we applied an attractive contact potential at the five end beads on both sides of a 30 nt ssDNA, which will essentially make a hairpin loop consisting of 20 nt and five-five contacts at its ends.  
+2. So what I did, I ran the code calc_dis20 first, it only writes down the distances between 1st nt-20th nt, ..., 2nd nt-19th nt and so on. And also writes it down in a file.  
+3. Then I ran write1, which essentially writes the distance between the 1st nt-19th nt pair for each of the 50 simulations (I ran 50 simulations to calculate this.)  
+4. Then the hist program converts this distances to a binary number depending on a certain thresold. I assumed that, if the end-to-end distance is < 5.00 then a contact has been formed, and if it is greater that 5.00 then the contact has not been formed. If the contact formed, then I write it as 0 other wise 1. So in the binary file, for each time step I have 50 numbers (for 50 simulations), either 0 or 1. Additionally it also calulates the number of 1's (which is essentially a open state or unfolded state) in each time step (Remember, here each time step means 1000 steps).  
+5.  
