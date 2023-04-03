@@ -1,0 +1,8 @@
+
+
+yourfilenames=`ls ./*.dat`
+for eachfile in $yourfilenames
+do
+   echo $eachfile
+   TrajToPDB3.pl $eachfile
+done

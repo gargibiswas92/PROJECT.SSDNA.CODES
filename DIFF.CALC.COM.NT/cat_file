@@ -1,0 +1,2 @@
+cat int_trans_001.txt int_trans_002.txt int_trans_003.txt int_trans_004.txt int_trans_005.txt int_trans_006.txt int_trans_007.txt int_trans_008.txt int_trans_009.txt int_trans_010.txt > all_int_trans.txt
+

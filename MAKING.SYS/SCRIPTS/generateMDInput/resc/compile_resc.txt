@@ -1,0 +1,3 @@
+#This document tells you how to compile resc binary for newer machines with updated libaries
+gcc -c resc.c
+gfortran -std=legacy resc.o prep.f rescprep.f resccal.f

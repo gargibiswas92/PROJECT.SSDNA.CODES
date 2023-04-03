@@ -1,0 +1,15 @@
+I divided the repA_dna235.pdb in two parts: One containing the protein structure and the other containing the structure of the DNA
+
+    i. protein.pdb 
+    ii. dna.pdb
+    
+From the dna.pdb again two fragments were extracted (on which I am supposed to apply translation vector)
+
+     a. dna_1_94.pdb
+     b. dna_125_234.pdb
+     
+Before applying translation on both of the fragment you need to know the translation vector. I took the co-ordinates of the phosphate of the 89th residue of the DNA and translate at the position of the phosphate of residue 1 of the DNA, same thing has been done on the other fragment.To find the appropriate translation vector translation vector.py have been used.     
+     
+I applied translation on both a and b to generate similar chain at the end of both chains (PDB_translation.py)
+
+The way to join the chains were to renumber them consecutively and appropriately (renum_res_atom.py)

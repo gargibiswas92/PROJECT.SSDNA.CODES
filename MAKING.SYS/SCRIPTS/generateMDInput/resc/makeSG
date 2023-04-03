@@ -1,0 +1,5 @@
+#!/bin/sh
+gfortran -std=legacy   prep.f rescprep.f resccal.f
+gcc -w resc.c
+gcc resc *.o
+#rm *.o

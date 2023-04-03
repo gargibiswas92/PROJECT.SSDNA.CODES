@@ -1,0 +1,9 @@
+#The force is exerted on the bead 1340
+#The force is exerted on the bead 1517
+
+#The forces are applied along 1060 to 321 (protein beads) on 1517
+#And from 781 to 552 (protein beads) on bead 1340
+
+#The value of the force is constant, direction is also constant
+
+#For calculation of the direction cosine, the initial positions of the beads 321, 1060, 781 and 552 have been considered.
